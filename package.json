@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danilobatson/Express/issues"
   },
-  "homepage": "https://github.com/danilobatson/Express#readme"
+  "homepage": "https://github.com/danilobatson/Express#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
