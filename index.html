@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>BMI Calculator</title>
 </head>
 <body>
 
-    <h1>Calculator</h1>
+    <h1>BMI Calculator</h1>
     <form action="/" method="post">
-        <input type="text" name="n1" placeholder="First Number">
-        <input type="text" name="n2" placeholder="Second Number">
+        <label for="weight">Weight (lb):</label>
+        <input type="text" name="weight" placeholder="200">
+        <label for="height">Height (in):</label>
+        <input type="text" name="height" placeholder="60">
         <button type="submit" name="submit">Calculate</button>
     </form>
     
